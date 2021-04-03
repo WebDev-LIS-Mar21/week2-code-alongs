@@ -1,0 +1,27 @@
+/*diference between inline and inline-block
+inline block allows to set with and height on 
+the element*/
+
+.parent {
+    height: 900px;
+}
+
+.box {
+  background-color: red;
+  display: inline-block;   /* => because I want them horizontally aligned */
+  width: 100px;
+  height: 100px;
+}
+
+
+#two {
+    background-color: green;
+}
+
+.text {
+    position: fixed;
+    background-color: blue;
+    color: white;
+    top: 0px;
+}
+

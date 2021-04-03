@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap.css"/>
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        <div class="row">
+            <form class="col-md-4">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label miguels-style">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+            </form>
+            <div class="col-md-4">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://placekitten.com/400/300" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://placekitten.com/400/300" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://placekitten.com/400/300" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </a>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <img src="https://placekitten.com/400/300" >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="https://placekitten.com/400/300" >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            </div>
+            <div class="col-md-6">
+                <img src="https://placekitten.com/400/300" >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <button type="button" class="btn btn-primary">Primary</button>
+                <button type="button" class="btn btn-secondary">Secondary</button>
+                <button type="button" class="btn btn-success">Success</button>
+                <button type="button" class="btn btn-danger">Danger</button>
+                <button type="button" class="btn btn-warning">Warning</button>
+                <button type="button" class="btn btn-info">Info</button>
+                <button type="button" class="btn btn-light">Light</button>
+                <button type="button" class="btn btn-dark">Dark</button>
+
+                <button type="button" class="btn btn-link">Link</button>
+                <img src="https://placekitten.com/400/300" >
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam asperiores quisquam veniam totam rerum alias sint dicta pariatur praesentium recusandae blanditiis, reprehenderit reiciendis ratione, eos quam eaque ut accusamus magnam.
+                Incidunt voluptate soluta odio corrupti deserunt voluptates, omnis veritatis consequuntur aliquid ipsum commodi repellendus totam explicabo ad sapiente eos quidem maiores repudiandae ex. Consequatur tempora eveniet ea, voluptate accusamus beatae!
+                Sequi quia sed ad, corporis magnam aspernatur non pariatur repellat quidem sapiente atque suscipit itaque, commodi voluptas esse corrupti consequatur rerum deleniti nam. Illo voluptatibus aliquam totam aperiam impedit sit!
+                Aliquam maxime praesentium, exercitationem quod, eum officia molestiae cumque, possimus suscipit neque consequuntur unde magni dolor nesciunt placeat obcaecati. Hic natus cum harum ducimus. Eum iure optio at consequatur ab?
+                Adipisci eius enim sunt eveniet explicabo officia vitae ex laborum laudantium nulla! Tenetur iste fuga laboriosam ut voluptatem impedit. Debitis, nemo quae! Impedit eligendi quaerat aspernatur quae rem quos pariatur.
+                Ducimus culpa eveniet dolor iure soluta? Fugiat neque molestiae voluptatibus, ipsum illo repellendus nihil nulla saepe magni hic error excepturi ipsam cumque, vero sunt dolorum! Culpa dolor animi sit alias?
+                Veritatis eius quas sit nulla maiores quo, ut rerum optio, commodi libero dignissimos rem sapiente quae minima nisi nemo. Vitae rerum iure minus aliquam. Facere perspiciatis a itaque harum provident?
+                Obcaecati numquam modi nemo quaerat vel optio molestias cupiditate exercitationem architecto, adipisci alias sunt voluptatibus ullam nisi iusto, inventore beatae ut aliquid laborum amet commodi iste quasi consectetur. Placeat, accusamus!
+                Voluptatem perferendis ea, doloremque numquam recusandae magnam facilis quas veritatis laudantium eum exercitationem ut pariatur autem unde laborum perspiciatis maiores ullam, iusto minus non harum? Esse sunt earum aut explicabo?
+                Perspiciatis culpa modi necessitatibus adipisci delectus sint quo, placeat obcaecati consequuntur rerum! Accusamus, tempora doloremque. Facere, doloribus, non voluptatem, ab voluptates consequuntur facilis quos quaerat distinctio corporis eveniet inventore. A.
+                Quia sed, veritatis soluta, aliquid error, non nulla incidunt minus sit quae nobis dolor assumenda? Consectetur, laudantium alias temporibus voluptate inventore expedita animi quis, facere pariatur officia error consequuntur voluptates.
+                Molestiae quibusdam totam cumque consequuntur, nostrum provident excepturi, enim animi dicta delectus in architecto possimus adipisci optio odit quasi minus earum quos doloremque numquam culpa voluptatem minima aut! Deleniti, inventore.
+            </div>
+        </div>
+    </div>
+</body>
+</html>

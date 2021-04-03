@@ -1,0 +1,21 @@
+html {
+    font-size: 10px;
+}
+
+.responsive {
+    width: 80rem;
+    height: 10rem;
+    font-size: 2rem;
+    background-color: red;
+}
+
+@media (min-width: 1000px) {
+    .responsive {
+        background-color: blue;
+        width: 1000px;
+    }
+
+    html {
+        font-size: 20px;
+    }
+}

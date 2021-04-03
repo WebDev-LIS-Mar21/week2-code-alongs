@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+</head>
+<body>
+  <p id="paragraph">What is your name?</p>
+  <a href="#" target="blank" id="google-link" class="link">Google</a>
+  <div id="content">
+      <!-- Prepend -->
+    <h1 id="title">Main title</h1>
+    
+    <ul id="item-list"></ul>
+    <ol id="another-item-list">
+        <li onclick="deleteLi()">First</li>
+        <li onclick="deleteLi()">Second</li>
+        <li onclick="deleteLi()">Third</li>
+        <li onclick="deleteLi()">Fourth</li>
+    </ol>
+    <button id="add-item-button">Add item</button>
+    <label for="username">Name</label>
+    <input id="username" type="text" />
+    <button id="send-btn">Send</button>
+    <p id="sendEmail"></p>
+    <!-- Append -->
+  </div>
+  <script src="dom-manipulation.js"></script>
+</body>
+</html>

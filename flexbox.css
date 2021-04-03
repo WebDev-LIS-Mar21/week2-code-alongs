@@ -1,0 +1,17 @@
+.container  {
+    display: flex;
+    width: 370px;
+    height: 500px;
+}
+
+.my-paragraph {
+    font-size: 30px;
+}
+
+.item {
+    border: 1px solid red;
+    width: 80px;
+    height: 80px;
+    margin: 5px
+}
+
